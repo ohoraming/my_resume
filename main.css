@@ -1,0 +1,163 @@
+@font-face {
+	font-family: retro;
+	src: url(src/font/DungGeunMo.ttf);
+}
+
+html {
+	background: url(src/image/background.jpg) no-repeat center;
+	background-size: cover;
+	background-position: 50% 30%;
+}
+
+.bg:hover {
+	background: rgba(222, 165, 165, 0.735);
+	cursor: pointer;
+}
+
+#check {
+	width: 100px;
+	height: 100px;
+	top: 30%;
+	left: 20%;
+	position: absolute;
+	background: rgba(222, 165, 165, 0.735);
+}
+
+.info {
+	font-family: retro;
+  font-size: 2rem;
+}
+
+@keyframes blink-effect {
+  70% {
+    opacity: 0;
+  }
+}
+
+.blink {
+  animation-name: blink-effect;
+  animation-duration: 3s;
+  animation-timing-function:step-end;
+  animation-iteration-count:infinite;
+}
+.resume {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 30%;
+	left: 20%;
+}
+
+.resume-title::after {
+	content: "한번에 보기";
+	font-family: retro;
+	font-size: 23px;
+	position: absolute;
+	top: 24%;
+	left: 18%;
+	color: white;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 0.3rem 0.5rem;
+	white-space: nowrap;
+}
+.contact {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 70%;
+	left: 10%;
+}
+
+.contact-title::after {
+	content: "GITHUB";
+	font-family: retro;
+	font-size: 23px;
+	position: absolute;
+	top: 65%;
+	left: 11%;
+	color: white;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 0.3rem 0.5rem;
+	white-space: nowrap;
+}
+
+.intro {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 70%;
+	left: 30%;
+}
+
+.intro-title::after {
+	content: "자기소개서";
+	font-family: retro;
+	font-size: 23px;
+	position: absolute;
+	top: 65%;
+	left: 30%;
+	color: white;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 0.3rem 0.5rem;
+	white-space: nowrap;
+}
+
+.project {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 70%;
+	left: 55%;
+}
+
+.project-title::after {
+	content: "PROJECT";
+	font-family: retro;
+	font-size: 23px;
+	position: absolute;
+	top: 65%;
+	left: 56%;
+	color: white;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 0.3rem 0.5rem;
+	white-space: nowrap;
+}
+.blog {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 20%;
+	left: 70%;
+}
+.blog-title::after {
+	content: "BLOG";
+	font-family: retro;
+	font-size: 23px;
+	position: absolute;
+	top: 15%;
+	left: 72%;
+	color: white;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 0.3rem 0.5rem;
+	white-space: nowrap;
+}
+.edu {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 70%;
+	left: 80%;
+}
+
+.edu-title::after {
+	content: "EDUCATION";
+	font-family: retro;
+	font-size: 23px;
+	position: absolute;
+	top: 65%;
+	left: 80%;
+	color: white;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 0.3rem 0.5rem;
+	white-space: nowrap;
+}
