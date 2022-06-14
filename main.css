@@ -81,7 +81,7 @@ html {
 	white-space: nowrap;
 }
 
-.intro {
+/* .intro {
 	position: absolute;
 	width: 100px;
 	height: 100px;
@@ -100,14 +100,14 @@ html {
 	background: rgba(0, 0, 0, 0.5);
 	padding: 0.3rem 0.5rem;
 	white-space: nowrap;
-}
+} */
 
 .project {
 	position: absolute;
 	width: 100px;
 	height: 100px;
 	top: 70%;
-	left: 55%;
+	left: 45%;
 }
 
 .project-title::after {
@@ -116,7 +116,7 @@ html {
 	font-size: 23px;
 	position: absolute;
 	top: 65%;
-	left: 56%;
+	left: 45%;
 	color: white;
 	background: rgba(0, 0, 0, 0.5);
 	padding: 0.3rem 0.5rem;

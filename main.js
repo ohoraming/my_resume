@@ -2,7 +2,7 @@ const check = document.querySelector('#check');
 const content = [
   document.querySelector(".resume"),
   document.querySelector(".contact"),
-  document.querySelector(".intro"),
+  // document.querySelector(".intro"),
   document.querySelector(".project"),
   document.querySelector(".edu"),
   document.querySelector(".blog"),
